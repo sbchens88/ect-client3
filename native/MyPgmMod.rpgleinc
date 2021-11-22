@@ -1,0 +1,14 @@
+      ************************************
+      * Module: MyPgmMod
+      * Generated RPG data structures
+      * and prototypes
+      * Do not modify
+      ************************************
+
+      ************************************
+      * Program prototype
+      ************************************
+     Dsimplecalc       PR
+     DInput                          15P 0 Dim(3)                               Input
+     DParam1                         15P 3                                      Input
+     DOutput                         16P 0

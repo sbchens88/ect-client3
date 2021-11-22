@@ -1,0 +1,32 @@
+---
+name: MyPgmMod
+codeblocks:
+    typescript:
+        - ""
+        - // Manually entered import
+        - import configService from "../../config";
+        - const config = configService.get();
+pgmmodels:
+    simplecalc:
+        library: AMAGID_X
+        mode: ile
+        procedures:
+            MainProc:
+                params:
+                    Input:
+                        type: Packed
+                        length: 15
+                        default: 0
+                        comment: Input
+                        dim: 3
+                    Param1:
+                        type: Packed
+                        length: 15
+                        precision: 3
+                        default: 0
+                        comment: Input
+                        dim: 0
+                    Output:
+                        type: Packed
+                        length: 16
+                        outputOnly: true
