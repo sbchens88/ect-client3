@@ -42,7 +42,7 @@
     "author": "Eradani",
     "homepage": "https://github.com/eradani-inc/eradani-connect-template#readme",
     "dependencies": {
-        "@eradani-inc/eradani-connect": "^2.5.2",
+        "@eradani-inc/eradani-connect": "^2.7.0-alpha.8",
         "@types/cors": "^2.8.10",
         "@types/es6-promisify": "^6.0.0",
         "@types/express": "^4.17.12",
