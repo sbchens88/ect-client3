@@ -10,6 +10,7 @@ import mountASDS from './asds';
 import mountCHENTESTING13 from './chenTesting13';
 import mountFULL1 from './full1';
 import mountTHEFI from './theFi';
+import mountASDWW from './asdww';
 
 export default function mountAPI(router: Router) {
     // You can set auth requirements on a whole API section by putting `router.use(requireAuth);` here instead of on individual route definitions
@@ -57,4 +58,8 @@ export default function mountAPI(router: Router) {
     const theFi = Router();
     mountTHEFI(theFi);
     router.use('/theFi', theFi);
+
+    const asdww = Router();
+    mountASDWW(asdww);
+    router.use('/asdww', asdww);
 }

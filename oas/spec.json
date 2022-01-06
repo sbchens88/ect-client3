@@ -360,6 +360,17 @@
         "tags": []
       }
     },
+    "/api/asdww/wwee": {
+      "get": {
+        "summary": "/api/asdww/wwee",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {},
+        "tags": []
+      }
+    },
     "/auth": {
       "post": {
         "summary": "/auth",

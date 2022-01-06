@@ -339,6 +339,13 @@
         "tags": []
       }
     },
+    "/api/asdww/wwee": {
+      "get": {
+        "summary": "/api/asdww/wwee",
+        "responses": {},
+        "tags": []
+      }
+    },
     "/auth": {
       "post": {
         "summary": "/auth",
