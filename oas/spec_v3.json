@@ -353,6 +353,20 @@
         "tags": []
       }
     },
+    "/api/qwewww/wwwwwq1": {
+      "get": {
+        "summary": "/api/qwewww/wwwwwq1",
+        "responses": {},
+        "tags": []
+      }
+    },
+    "/api/qwewww/wwwwwq2": {
+      "get": {
+        "summary": "/api/qwewww/wwwwwq2",
+        "responses": {},
+        "tags": []
+      }
+    },
     "/auth": {
       "post": {
         "summary": "/auth",

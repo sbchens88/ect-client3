@@ -382,6 +382,28 @@
         "tags": []
       }
     },
+    "/api/qwewww/wwwwwq1": {
+      "get": {
+        "summary": "/api/qwewww/wwwwwq1",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {},
+        "tags": []
+      }
+    },
+    "/api/qwewww/wwwwwq2": {
+      "get": {
+        "summary": "/api/qwewww/wwwwwq2",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {},
+        "tags": []
+      }
+    },
     "/auth": {
       "post": {
         "summary": "/auth",
