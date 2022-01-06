@@ -294,6 +294,13 @@
         "tags": []
       }
     },
+    "/api/full1/process1": {
+      "get": {
+        "summary": "/api/full1/process1",
+        "responses": {},
+        "tags": []
+      }
+    },
     "/auth": {
       "post": {
         "summary": "/auth",
