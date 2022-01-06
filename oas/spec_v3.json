@@ -280,6 +280,13 @@
         "tags": []
       }
     },
+    "/api/chenTesting13/epSample": {
+      "get": {
+        "summary": "/api/chenTesting13/epSample",
+        "responses": {},
+        "tags": []
+      }
+    },
     "/auth": {
       "post": {
         "summary": "/auth",

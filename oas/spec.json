@@ -282,6 +282,17 @@
         "tags": []
       }
     },
+    "/api/chenTesting13/epSample": {
+      "get": {
+        "summary": "/api/chenTesting13/epSample",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {},
+        "tags": []
+      }
+    },
     "/auth": {
       "post": {
         "summary": "/auth",
