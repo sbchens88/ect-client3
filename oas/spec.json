@@ -31,7 +31,8 @@
         },
         "tags": [],
         "produces": [
-          "application/json"
+          "application/json",
+          "text/html"
         ]
       }
     },
@@ -218,6 +219,61 @@
     "/api/storedPr/ocedure": {
       "get": {
         "summary": "/api/storedPr/ocedure",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {},
+        "tags": []
+      }
+    },
+    "/api/poy/hg": {
+      "get": {
+        "summary": "/api/poy/hg",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {},
+        "tags": []
+      }
+    },
+    "/api/chens/possf": {
+      "get": {
+        "summary": "/api/chens/possf",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {},
+        "tags": []
+      }
+    },
+    "/api/chenTesting/aTesta": {
+      "get": {
+        "summary": "/api/chenTesting/aTesta",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {},
+        "tags": []
+      }
+    },
+    "/api/chen/tesing123": {
+      "get": {
+        "summary": "/api/chen/tesing123",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {},
+        "tags": []
+      }
+    },
+    "/api/asds/ssddd": {
+      "get": {
+        "summary": "/api/asds/ssddd",
         "consumes": [
           "application/json"
         ],

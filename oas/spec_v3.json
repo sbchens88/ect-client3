@@ -23,6 +23,17 @@
                     }
                   }
                 }
+              },
+              "text/html": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string",
+                      "example": "Up and running!"
+                    }
+                  }
+                }
               }
             }
           },
@@ -230,6 +241,41 @@
     "/api/storedPr/ocedure": {
       "get": {
         "summary": "/api/storedPr/ocedure",
+        "responses": {},
+        "tags": []
+      }
+    },
+    "/api/poy/hg": {
+      "get": {
+        "summary": "/api/poy/hg",
+        "responses": {},
+        "tags": []
+      }
+    },
+    "/api/chens/possf": {
+      "get": {
+        "summary": "/api/chens/possf",
+        "responses": {},
+        "tags": []
+      }
+    },
+    "/api/chenTesting/aTesta": {
+      "get": {
+        "summary": "/api/chenTesting/aTesta",
+        "responses": {},
+        "tags": []
+      }
+    },
+    "/api/chen/tesing123": {
+      "get": {
+        "summary": "/api/chen/tesing123",
+        "responses": {},
+        "tags": []
+      }
+    },
+    "/api/asds/ssddd": {
+      "get": {
+        "summary": "/api/asds/ssddd",
         "responses": {},
         "tags": []
       }

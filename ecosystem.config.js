@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
         {
-            name: 'eradani-connect-template',
+            name: 'newApp',
             script: 'dist/src/app.js',
 
             // Options reference: https://pm2.keymetrics.io/docs/usage/application-declaration/
@@ -12,11 +12,11 @@ module.exports = {
             cron_restart: '0 0 * * *',
             env: {
                 APP_ENV: 'development',
-		NODE_ENV: 'development'
+                NODE_ENV: 'development'
             },
             env_production: {
                 APP_ENV: 'production',
-  		NODE_ENV: 'development'
+                NODE_ENV: 'development'
             }
         }
     ]
