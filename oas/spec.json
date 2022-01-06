@@ -371,6 +371,17 @@
         "tags": []
       }
     },
+    "/api/qwewww/wwwwwq": {
+      "get": {
+        "summary": "/api/qwewww/wwwwwq",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {},
+        "tags": []
+      }
+    },
     "/auth": {
       "post": {
         "summary": "/auth",

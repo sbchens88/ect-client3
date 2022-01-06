@@ -346,6 +346,13 @@
         "tags": []
       }
     },
+    "/api/qwewww/wwwwwq": {
+      "get": {
+        "summary": "/api/qwewww/wwwwwq",
+        "responses": {},
+        "tags": []
+      }
+    },
     "/auth": {
       "post": {
         "summary": "/auth",
