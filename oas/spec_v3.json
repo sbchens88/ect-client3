@@ -297,13 +297,44 @@
     "/api/full1/process1": {
       "get": {
         "summary": "/api/full1/process1",
-        "responses": {},
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "records": {
+                      "type": "array",
+                      "items": {},
+                      "example": [
+                        null
+                      ]
+                    },
+                    "params": {
+                      "type": "object",
+                      "properties": {}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "tags": []
       }
     },
     "/api/full1/process123": {
       "get": {
         "summary": "/api/full1/process123",
+        "responses": {},
+        "tags": []
+      }
+    },
+    "/api/theFi/nalProc": {
+      "get": {
+        "summary": "/api/theFi/nalProc",
         "responses": {},
         "tags": []
       }
