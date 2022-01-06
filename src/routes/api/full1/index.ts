@@ -14,4 +14,9 @@ export default function mountFULL1(router: Router) {
         validate(validators.Asdfgasd),
         respond((req: any) => full1Controller.Asdfgasd(Object.assign({}, req.params, req.body, req.query)))
     );
+    router.get(
+        '/process123',
+        validate(validators.Asdfgasdedsda),
+        respond((req: any) => full1Controller.Asdfgasdedsda(Object.assign({}, req.params, req.body, req.query)))
+    );
 }

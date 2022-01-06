@@ -10,3 +10,8 @@ export const AsdfgasdMain = new eradaniConnect.run.SP(`spName`);
 export interface AsdfgasdInput {}
 export type AsdfgasdOutputRecord = JSONObject;
 export interface AsdfgasdOutput extends Array<AsdfgasdOutputRecord> {}
+
+export const AsdfgasdedsdaMain = new eradaniConnect.run.SP(`spName`);
+export interface AsdfgasdedsdaInput {}
+export type AsdfgasdedsdaOutputRecord = JSONObject;
+export interface AsdfgasdedsdaOutput extends Array<AsdfgasdedsdaOutputRecord> {}

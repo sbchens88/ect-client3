@@ -301,6 +301,13 @@
         "tags": []
       }
     },
+    "/api/full1/process123": {
+      "get": {
+        "summary": "/api/full1/process123",
+        "responses": {},
+        "tags": []
+      }
+    },
     "/auth": {
       "post": {
         "summary": "/auth",
