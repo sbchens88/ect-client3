@@ -293,6 +293,17 @@
         "tags": []
       }
     },
+    "/api/full1/processa": {
+      "get": {
+        "summary": "/api/full1/processa",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {},
+        "tags": []
+      }
+    },
     "/auth": {
       "post": {
         "summary": "/auth",

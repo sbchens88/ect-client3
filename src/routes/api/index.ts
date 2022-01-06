@@ -8,6 +8,7 @@ import mountCHENTESTING from './chenTesting';
 import mountCHEN from './chen';
 import mountASDS from './asds';
 import mountCHENTESTING13 from './chenTesting13';
+import mountFULL1 from './full1';
 
 export default function mountAPI(router: Router) {
     // You can set auth requirements on a whole API section by putting `router.use(requireAuth);` here instead of on individual route definitions
@@ -47,4 +48,8 @@ export default function mountAPI(router: Router) {
     const chenTesting13 = Router();
     mountCHENTESTING13(chenTesting13);
     router.use('/chenTesting13', chenTesting13);
+
+    const full1 = Router();
+    mountFULL1(full1);
+    router.use('/full1', full1);
 }
