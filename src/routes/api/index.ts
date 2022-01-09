@@ -12,6 +12,7 @@ import mountFULL1 from './full1';
 import mountTHEFI from './theFi';
 import mountASDWW from './asdww';
 import mountQWEWWW from './qwewww';
+import mountAPI from './api';
 
 export default function mountAPI(router: Router) {
     // You can set auth requirements on a whole API section by putting `router.use(requireAuth);` here instead of on individual route definitions
@@ -67,4 +68,8 @@ export default function mountAPI(router: Router) {
     const qwewww = Router();
     mountQWEWWW(qwewww);
     router.use('/qwewww', qwewww);
+
+    const api = Router();
+    mountAPI(api);
+    router.use('/api', api);
 }
