@@ -226,6 +226,17 @@
         "tags": []
       }
     },
+    "/api/newest/testingMonaco2": {
+      "get": {
+        "summary": "/api/newest/testingMonaco2",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {},
+        "tags": []
+      }
+    },
     "/auth": {
       "post": {
         "summary": "/auth",

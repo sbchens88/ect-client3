@@ -5,3 +5,8 @@ export const WqedfgMain = new eradaniConnect.run.Sql(` select * from qgpl.applic
 export interface WqedfgInput {}
 export type WqedfgOutputRecord = JSONObject;
 export interface WqedfgOutput extends Array<WqedfgOutputRecord> {}
+
+export const WqedfgfMain = new eradaniConnect.run.Sql(` select * from qgpl.applications`);
+export interface WqedfgfInput {}
+export type WqedfgfOutputRecord = JSONObject;
+export interface WqedfgfOutput extends Array<WqedfgfOutputRecord> {}
