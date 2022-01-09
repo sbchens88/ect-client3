@@ -10,7 +10,10 @@ import {
     WqedfgfInput,
     Wqedfgf2Main,
     Wqedfgf2Output,
-    Wqedfgf2Input
+    Wqedfgf2Input,
+    Wqedfgf4Main,
+    Wqedfgf4Output,
+    Wqedfgf4Input
 } from 'src/models/newest';
 
 const logger = createLogger('controllers/newest');
@@ -31,4 +34,10 @@ export async function Wqedfgf2(inputs: JSONObject): Promise<Wqedfgf2Output> {
     logger.debug('Calling wqedfgf2 with args: ', inputs);
     const params: Wqedfgf2Input = {};
     return transport.execute(Wqedfgf2Main, params) as Promise<Wqedfgf2Output>;
+}
+
+export async function Wqedfgf4(inputs: JSONObject): Promise<Wqedfgf4Output> {
+    logger.debug('Calling wqedfgf4 with args: ', inputs);
+    const params: Wqedfgf4Input = {};
+    return transport.execute(Wqedfgf4Main, params) as Promise<Wqedfgf4Output>;
 }

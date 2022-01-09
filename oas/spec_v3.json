@@ -248,6 +248,13 @@
         "tags": []
       }
     },
+    "/api/newest/testingMonaco4": {
+      "get": {
+        "summary": "/api/newest/testingMonaco4",
+        "responses": {},
+        "tags": []
+      }
+    },
     "/auth": {
       "post": {
         "summary": "/auth",

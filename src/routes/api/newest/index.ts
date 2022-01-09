@@ -19,4 +19,9 @@ export default function mountNEWEST(router: Router) {
         validate(validators.Wqedfgf2),
         respond((req: any) => newestController.Wqedfgf2(Object.assign({}, req.params, req.body, req.query)))
     );
+    router.get(
+        '/testingMonaco4',
+        validate(validators.Wqedfgf4),
+        respond((req: any) => newestController.Wqedfgf4(Object.assign({}, req.params, req.body, req.query)))
+    );
 }
