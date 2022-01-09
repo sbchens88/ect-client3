@@ -1,7 +1,17 @@
 import createLogger from 'src/services/logger';
 import transport from 'src/services/connection';
 import { JSONObject } from 'src/types';
-import { WqedfgMain, WqedfgOutput, WqedfgInput, WqedfgfMain, WqedfgfOutput, WqedfgfInput } from 'src/models/newest';
+import {
+    WqedfgMain,
+    WqedfgOutput,
+    WqedfgInput,
+    WqedfgfMain,
+    WqedfgfOutput,
+    WqedfgfInput,
+    Wqedfgf2Main,
+    Wqedfgf2Output,
+    Wqedfgf2Input
+} from 'src/models/newest';
 
 const logger = createLogger('controllers/newest');
 
@@ -15,4 +25,10 @@ export async function Wqedfgf(inputs: JSONObject): Promise<WqedfgfOutput> {
     logger.debug('Calling wqedfgf with args: ', inputs);
     const params: WqedfgfInput = {};
     return transport.execute(WqedfgfMain, params) as Promise<WqedfgfOutput>;
+}
+
+export async function Wqedfgf2(inputs: JSONObject): Promise<Wqedfgf2Output> {
+    logger.debug('Calling wqedfgf2 with args: ', inputs);
+    const params: Wqedfgf2Input = {};
+    return transport.execute(Wqedfgf2Main, params) as Promise<Wqedfgf2Output>;
 }
