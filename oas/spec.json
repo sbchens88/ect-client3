@@ -256,6 +256,31 @@
         ],
         "parameters": [],
         "responses": {},
+        "tags": [],
+        "x-api-resource": "query: select * from qgpl.applications",
+        "x-generated-at": "Sun Jan 09 2022 13:18:55 GMT+0000 (Coordinated Universal Time)",
+        "x-generated-by": "ecapitst"
+      }
+    },
+    "/api/tes/stingf": {
+      "get": {
+        "summary": "/api/tes/stingf",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {},
+        "tags": []
+      }
+    },
+    "/api/anoth/ertest": {
+      "get": {
+        "summary": "/api/anoth/ertest",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {},
         "tags": []
       }
     },
