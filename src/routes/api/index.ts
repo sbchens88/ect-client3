@@ -4,6 +4,7 @@ import mountSQL from './sql';
 import mountNEWEST from './newest';
 import mountTES from './tes';
 import mountANOTH from './anoth';
+import mountLETS from './lets';
 
 export default function mountAPI(router: Router) {
     // You can set auth requirements on a whole API section by putting `router.use(requireAuth);` here instead of on individual route definitions
@@ -27,4 +28,8 @@ export default function mountAPI(router: Router) {
     const anoth = Router();
     mountANOTH(anoth);
     router.use('/anoth', anoth);
+
+    const lets = Router();
+    mountLETS(lets);
+    router.use('/lets', lets);
 }
