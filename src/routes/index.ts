@@ -2,6 +2,7 @@ import express, { Router } from 'express';
 import mountAPI from './api';
 import mountAuth from './auth';
 import respond from 'src/middlewares/respond';
+import mountTESTI from './testi';
 
 export default function addRoutes(router: Router) {
     const api = express.Router();
@@ -17,4 +18,8 @@ export default function addRoutes(router: Router) {
 
     router.use('/api', api);
     router.use('/auth', auth);
+
+    const testi = Router();
+    mountTESTI(testi);
+    router.use('/testi', testi);
 }
