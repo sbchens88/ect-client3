@@ -4,6 +4,7 @@ import mountAuth from './auth';
 import respond from 'src/middlewares/respond';
 import mountTESTI from './testi';
 import mountCHE from './che';
+import mountCHEN from './chen';
 
 export default function addRoutes(router: Router) {
     const api = express.Router();
@@ -27,4 +28,8 @@ export default function addRoutes(router: Router) {
     const che = Router();
     mountCHE(che);
     router.use('/che', che);
+
+    const chen = Router();
+    mountCHEN(chen);
+    router.use('/chen', chen);
 }

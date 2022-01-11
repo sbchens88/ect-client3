@@ -375,6 +375,16 @@
       "get": {
         "summary": "/che/apie/ndpoint",
         "responses": {},
+        "tags": [],
+        "x-api-resource": "query:select * from qgpl.applications",
+        "x-generated-at": "Tue Jan 11 2022 08:11:15 GMT+0000 (Coordinated Universal Time)",
+        "x-generated-by": "ecapitst"
+      }
+    },
+    "/chen/apiy/amltest": {
+      "get": {
+        "summary": "/chen/apiy/amltest",
+        "responses": {},
         "tags": []
       }
     }
