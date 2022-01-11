@@ -365,6 +365,16 @@
       "get": {
         "summary": "/testi/ngAppMo/del",
         "responses": {},
+        "tags": [],
+        "x-api-resource": "program:1.yaml",
+        "x-generated-at": "Mon Jan 10 2022 13:10:30 GMT+0000 (Coordinated Universal Time)",
+        "x-generated-by": "ecapitst"
+      }
+    },
+    "/che/apie/ndpoint": {
+      "get": {
+        "summary": "/che/apie/ndpoint",
+        "responses": {},
         "tags": []
       }
     }
